@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#79c2d0,#bbe4e9);
+}
+.heading{
+    /* border: 1px solid black; */
+    padding: 12px 20px;
+    text-align: center;
+    word-spacing: 5px;
+    color: #24527a;
+    border-radius: 15px;
+    border: 1px solid rgb(95, 158, 218);
+    background-image: linear-gradient(#79c2d0,#bbe4e9);
+}
+.innerContainer{
+    border: 1px solid black;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+.genPassShow{
+    /* border: 1px solid black; */
+    width: 100%;
+}
+.genPassShow input{
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.options{
+    /* border: 1px solid red; */
+    width: 100%;
+}
+.sizeBox{
+    float: right;
+}
+.sizeBox input{
+    width: 70px;
+    height: 25px;
+    font-size: 16px;
+}
+.opt{
+    /* border: 1px solid green; */
+    margin: 10px 0;
+    padding: 5px 10px ;
+    font-size: 20px;
+    color: #000000;
+}
+.checkBox{
+    float: right;
+}
+#genrateBtn{
+    margin-top: 10px;
+    padding: 10px 25px;
+    font-size: 21px;
+    border-radius: 15px;
+    border: none;
+    border: 1px solid rgb(95, 158, 218);
+    background-image: linear-gradient(#79c2d0,#bbe4e9);
+}
